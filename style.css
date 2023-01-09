@@ -5,41 +5,78 @@
 	aligh-items:center;
 	margin: 50px;
 }
+
 h1 a{
 	font-weight: normal;
-	font-family:Helvetica;
+	font-family: 'Farro', 'Figtree', Helvetica;
 	text-align:left; 
 	text-decoration: none; 
 	color: #696c81;
-	font-size: 30px;
-	padding: 20px;
+	font-size: 25px;
+	margin-left: 25px;
 }
+
 .navigation {
 	display: inline-block;
 	float: right;
+	margin-right: 25px;
+
 }
+
 .navigation a {
 	display: inline-block;
 	color: #696c81;
 	text-align: center; 
 	text-decoration: none; 
-	font-family: Helvetica;
-	font-size: 30px;
-	padding: 20px 25px;
+	font-family: 'Farro', 'Figtree', Helvetica;
+	font-size: 20px;
+	padding: 30px 10px;
 }
-p {
-	font-size:150%; 
-	text-align:left;
-	padding: 20px;
-	background-color: #e9ebf5;
-	margin: 50px;
-	padding-bottom: 80%;
-	color: #696c81;
-}
+
 body {
-	font-family:Helvetica;
  	background-image: url('https://images.unsplash.com/photo-1486246772917-8947d0f7f541?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80');
  	background-repeat: no-repeat;
  	background-attachment: fixed;
  	background-size: 100% 100%;
 }
+
+.header {
+	background-color: #e9ebf5;
+	margin: 50px;
+	padding: 0px 0px 82% 25px;
+}
+
+h2, h3 {
+}
+
+h2 {
+	font-family: 'Anaheim', 'Figtree', Helvetica;
+	font-size: 150%; 
+	font-weight: normal;
+	text-align: left;
+	color: #696c81;
+	margin: 0px;
+	padding-top: 25px; 
+}
+
+h3 { 
+	font-family: 'Over the Rainbow', 'Anaheim', 'Figtree', Helvetica;
+	font-size: 450%; 
+	font-weight: bold;
+	text-align: left;
+	color: #696c81;
+	margin: 0px;
+	margin-top: -20px;
+	margin-left: 25px; 
+}
+
+p1 { 	
+	font-family: 'Anaheim', 'Figtree', Helvetica;
+	font-size: 150%; 
+	font-weight: normal;
+	text-align: left;
+	color: #696c81;
+	margin: 0px;
+	padding-top: 25px; 
+}
+
