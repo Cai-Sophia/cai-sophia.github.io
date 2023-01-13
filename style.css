@@ -66,21 +66,33 @@ h2, h3, p1 {
 h2 {
 	font-family: 'Anaheim', 'Figtree', Helvetica;
 	font-size: 300%; 
-	margin: 100px 0px 0px 50px;
+	margin: 100px 0px 0px 100px;
 	padding-top: 25px; 
 }
 
 h3 { 
 	font-family: 'Over the Rainbow', 'Anaheim', 'Figtree', Helvetica;
 	font-size: 550%; 
-	margin: -20px 0px 0px 50px;
-	margin-top: -20px;
-	margin-left: 50px; 
+	margin: -20px 0px 0px 100px;
 }
 
 p1 { 	
 	font-family: 'Anaheim', 'Figtree', Helvetica;
 	font-size: 150%; 
-	margin: 0px 0px 0px 50px;
+	margin: 0px 0px 0px 100px;
 }
 
+.contact{
+	margin-left: 250px; 
+	margin-top: -10px;
+}
+
+.contact a{
+	color: #414243;
+	margin-right: 30px;
+	padding-bottom: 20px; 
+	border-radius: 50%;
+	text-decoration: none; 
+	font-weight: normal;
+	font-size: 200%;
+}
