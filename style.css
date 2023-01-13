@@ -59,8 +59,6 @@ h2, h3, p1 {
 	text-align: left;
 	color: #414243;
 	font-weight: bold;
-	width: 30%
-	overflow-wrap: break-word;
 }
 
 h2 {
@@ -95,4 +93,50 @@ p1 {
 	text-decoration: none; 
 	font-weight: normal;
 	font-size: 200%;
+}
+
+.resume h2{ 
+	text-align: center;
+	font-size: 175%;
+	margin: 0px 0px 20px 0px;
+}
+
+.resume p2{
+	font-family: 'Anaheim', 'Figtree', Helvetica;
+	font-size: 150%; 
+	font-weight: bold; 
+	color: #414243;
+	margin: 0px 0px 0px 100px;
+}
+
+.resume p3{
+	font-family: 'Anaheim', 'Figtree', Helvetica;
+	font-size: 150%; 
+	font-style: italic; 
+	color: #414243;
+	margin-left: 10px;
+}
+
+.resume p4{
+	font-family: 'Anaheim', 'Figtree', Helvetica;
+	font-size: 150%; 
+	float: right;
+	color: #414243;
+	margin-right: 300px;
+	margin-left: 100px; 
+}
+
+.resume p5{
+	font-family: 'Anaheim', 'Figtree', Helvetica;
+	font-size: 150%; 
+	color: #414243;
+	width: 83%;
+	float: right;
+}
+
+.resume p6{
+	font-family: 'Anaheim', 'Figtree', Helvetica;
+	font-size: 135%; 
+	color: #414243;
+	margin: 5px 0px 5px 150px;
 }
