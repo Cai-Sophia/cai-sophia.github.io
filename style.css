@@ -51,7 +51,7 @@ body {
 	border: 2px solid #414243;
 	background-color: #e9ebf5;
 	margin: 25px 50px 50px 50px;
-	padding: 0px 0px 75% 25px;
+	padding: 0px 0px 75% 0px;
 	opacity: 0.9;
 }
 
@@ -95,39 +95,37 @@ p1 {
 	font-size: 200%;
 }
 
+.resume {
+	margin: 10px 300px 0px 300px; 
+	font-family: 'Assistant', 'Farro', 'Figtree', Helvetica;
+}
+
 .resume h2{ 
 	text-align: center;
 	font-size: 175%;
-	margin: 0px 0px 20px 0px;
+	margin: 10px 0px 20px 0px;
 }
 
 .resume p2{
-	font-family: 'Anaheim', 'Figtree', Helvetica;
 	font-size: 150%; 
 	font-weight: bold; 
 	color: #414243;
-	margin: 0px 0px 0px 100px;
 }
 
 .resume p3{
-	font-family: 'Anaheim', 'Figtree', Helvetica;
 	font-size: 150%; 
 	font-style: italic; 
 	color: #414243;
-	margin-left: 10px;
 }
 
 .resume p4{
-	font-family: 'Anaheim', 'Figtree', Helvetica;
 	font-size: 150%; 
 	float: right;
 	color: #414243;
-	margin-right: 300px;
-	margin-left: 100px; 
+	flex: 50%;
 }
 
 .resume p5{
-	font-family: 'Anaheim', 'Figtree', Helvetica;
 	font-size: 150%; 
 	color: #414243;
 	width: 83%;
@@ -135,8 +133,7 @@ p1 {
 }
 
 .resume p6{
-	font-family: 'Anaheim', 'Figtree', Helvetica;
 	font-size: 135%; 
 	color: #414243;
-	margin: 5px 0px 5px 150px;
+	margin: 0px 0px 0px 35px; 
 }
